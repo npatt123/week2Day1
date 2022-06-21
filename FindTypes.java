@@ -14,7 +14,7 @@ public class FindTypes {
 		char[] charArray = test.toCharArray();
 		int lengthArray = charArray.length;
 		
-		for(int i = 0; i <lengthArray -1; i++) {
+		for(int i = 0; i <lengthArray; i++) {
 	
 			
 			if(Character.isLetter(charArray[i]) == true) {
